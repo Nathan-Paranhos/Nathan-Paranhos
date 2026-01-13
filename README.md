@@ -28,22 +28,6 @@ Sempre estudando, testando novas tecnologias e aceitando bons desafios!
 </div>
 
 <br/>
-
-### 📊 Estatísticas
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=nathan-paranhos&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=nathan-paranhos&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true">
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=nathan-paranhos&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" />
-  </picture>
-  <br/><br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=nathan-paranhos&layout=compact&theme=dracula&hide_border=true&langs_count=8">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=nathan-paranhos&layout=compact&theme=radical&hide_border=true&langs_count=8">
-    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nathan-paranhos&layout=compact&theme=dracula&hide_border=true&langs_count=8" />
-  </picture>
-</div>
-
 <br/>
 
 ### 🛠️ Tecnologias & Ferramentas
