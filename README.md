@@ -11,7 +11,7 @@
 
 <br/>
 
-Olá! Sou estudante de **Engenharia de Software** pela Estácio e estou mergulhando de cabeça no universo do **desenvolvimento de sistemas** com foco em **Salesforce**, **ERP/CRM** e automações empresariais 💻✨
+Olá! Sou estudante de **Engenharia de Software** pela Estácio e estou mergulhando de cabeça no universo do **desenvolvimento de sistemas** com foco em **Salesforce**, **ERP/CRM** e automações empresariais 💻
 
 Gosto de criar soluções eficientes, configurar plataformas de forma inteligente, mapear e padronizar processos e resolver problemas reais de negócio.
 
