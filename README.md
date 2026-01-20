@@ -70,5 +70,3 @@ Sempre estudando, testando novas tecnologias e aceitando bons desafios!
 
 > 💡 **Objetivo:** Tornar-me um profissional completo em **Salesforce** e **desenvolvimento de sistemas**, liderar implantações de sucesso, automatizar processos empresariais e criar soluções que impactem positivamente as organizações e as pessoas!
 
-Vamos codar (ou configurar 😄) juntos? 🚀  
-É só dar um oi! 😄
