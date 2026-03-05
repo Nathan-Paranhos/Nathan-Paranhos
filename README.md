@@ -143,17 +143,6 @@ Meu foco é transformar problemas complexos em soluções estruturadas, garantin
 
 <div align="center">
   <img
-    height="160"
-    src="https://github-readme-stats.vercel.app/api?username=Nathan-Paranhos&show_icons=true&count_private=true&hide_border=true&theme=github_dark"
-    alt="GitHub Stats"
-  />
-  <img
-    height="160"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nathan-Paranhos&layout=compact&hide_border=true&theme=github_dark"
-    alt="Top Langs"
-  />
-  <br/>
-  <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=Nathan-Paranhos&hide_border=true&theme=github-dark"
     alt="Contribution Graph"
   />
