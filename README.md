@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&height=80&lines=Olá!+Eu+sou+Nathan+Paranhos+💻;Software+Engineer+%7C+Quality+Engineer;Desenvolvedor+de+Sistemas+%26+APIs;Apaixonado+por+tecnologia+e+desafios"
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&height=80&lines=Olá!+Eu+sou+Nathan+Paranhos+⚙️;Software+Engineer+%7C+Quality+Engineer;Desenvolvedor+de+Sistemas+%26+APIs;Apaixonado+por+tecnologia+e+desafios"
     alt="Typing SVG"
   />
   <br/>
@@ -56,9 +56,7 @@ Além do trabalho, desenvolvo **projetos próprios** com foco em **aplicações 
   <img align="center" alt="Python" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
   <img align="center" alt="C#" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
   <img align="center" alt="Java" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-
-  <!-- Símbolo de Engenharia de Software (no lugar do Delphi) -->
-  <span style="font-size: 32px; margin-left: 6px;" title="Engenharia de Software">⚙️</span>
+  <img align="center" alt="Delphi" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/develop/icons/delphi/delphi-original.svg" />
 </div>
 
 <br/>
@@ -116,8 +114,6 @@ Principais atividades:
 <div align="center">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=Nathan-Paranhos&show_icons=true&count_private=true&hide_border=true" />
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nathan-Paranhos&layout=compact&hide_border=true" />
-
   <br/>
-
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nathan-Paranhos&hide_border=true" />
 </div>
