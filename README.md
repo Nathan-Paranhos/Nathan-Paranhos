@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&height=80&lines=Olá!+Eu+sou+Nathan+Paranhos+👋;Software+Engineer+%7C+Quality+Engineer;Desenvolvedor+de+Sistemas+%26+APIs;Apaixonado+por+tecnologia+e+desafios" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&height=80&lines=Olá!+Eu+sou+Nathan+Paranhos+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/a06bb38d-87ee-4981-aeca-19fc319b546f" />
+;Software+Engineer+%7C+Quality+Engineer;Desenvolvedor+de+Sistemas+%26+APIs;Apaixonado+por+tecnologia+e+desafios" alt="Typing SVG" />
 </div>
 
 <br/>
