@@ -1,6 +1,10 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&height=80&lines=Olá!+Eu+sou+Nathan+Paranhos+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/a06bb38d-87ee-4981-aeca-19fc319b546f" />
-;Software+Engineer+%7C+Quality+Engineer;Desenvolvedor+de+Sistemas+%26+APIs;Apaixonado+por+tecnologia+e+desafios" alt="Typing SVG" />
+
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&height=80&lines=Olá!+Eu+sou+Nathan+Paranhos+💻;Software+Engineer+%7C+Quality+Engineer;Desenvolvedor+de+Sistemas+%26+APIs;Apaixonado+por+tecnologia+e+desafios" alt="Typing SVG" />
+
+  <br/>
+  <img width="140" alt="Nathan" src="https://github.com/user-attachments/assets/a06bb38d-87ee-4981-aeca-19fc319b546f" />
+
 </div>
 
 <br/>
@@ -13,15 +17,11 @@
 
 <br/>
 
-Sou estudante de **Engenharia de Software** e atuo profissionalmente na área de tecnologia como **Software Development Quality Engineer**.
+Sou estudante de **Engenharia de Software** e atuo profissionalmente como **Software Development Quality Engineer** (com atuação também em desenvolvimento).
 
-Minha atuação envolve **análise técnica de sistemas, validação de requisitos, investigação de bugs em produção, análise de APIs e automação de processos**.
+Trabalho com **análise técnica de sistemas, validação de requisitos, investigação de bugs em produção, análise de APIs, logs e automação de processos** — colaborando diretamente com times de **Produto e Desenvolvimento** em ambiente **Scrum/Kanban**.
 
-Tenho experiência trabalhando com **integrações entre sistemas, análise de dados e suporte técnico em ambientes produtivos**, colaborando diretamente com equipes de desenvolvimento e produto.
-
-Além da atuação profissional, desenvolvo **projetos próprios de software**, focados em **aplicações web, APIs e soluções digitais escaláveis**.
-
-Estou sempre estudando novas tecnologias e evoluindo em **arquitetura de software, desenvolvimento full stack e engenharia de sistemas**.
+Além do trabalho, desenvolvo **projetos próprios** com foco em **aplicações web, APIs e soluções digitais escaláveis**, buscando evoluir em **arquitetura de software, engenharia de sistemas e full stack**.
 
 ---
 
@@ -46,11 +46,14 @@ Estou sempre estudando novas tecnologias e evoluindo em **arquitetura de softwar
 <img align="center" alt="HTML5" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
 <img align="center" alt="CSS3" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
 <img align="center" alt="JavaScript" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+<img align="center" alt="TypeScript" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
 <img align="center" alt="React" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+<img align="center" alt="Next.js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
 <img align="center" alt="Node.js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
 <img align="center" alt="Python" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 <img align="center" alt="C#" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
 <img align="center" alt="Java" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+<img align="center" alt="Delphi" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/develop/icons/delphi/delphi-original.svg" />
 
 </div>
 
@@ -58,7 +61,9 @@ Estou sempre estudando novas tecnologias e evoluindo em **arquitetura de softwar
 
 <div align="center">
 
+<img src="https://img.shields.io/badge/Cloud-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
 <img src="https://img.shields.io/badge/Plataformas-Salesforce%20%2F%20Dynamics%20365-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ERP%20%2F%20CRM-Implantação%20%26%20Processos-2D2D2D?style=for-the-badge" />
 <img src="https://img.shields.io/badge/DevOps-Git%20%2F%20Azure%20DevOps-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Banco%20de%20Dados-Firebird%20%2F%20SQL-lightgrey?style=for-the-badge" />
 
@@ -74,31 +79,45 @@ Estou sempre estudando novas tecnologias e evoluindo em **arquitetura de softwar
 
 # 💼 Experiência Profissional
 
-Atuação profissional em **qualidade de software, análise técnica e suporte ao desenvolvimento de sistemas corporativos**.
+Atuação em **qualidade de software** e **engenharia de sistemas** em ambiente corporativo, apoiando evolução do produto e estabilidade em produção.
 
 Principais atividades:
 
-• Análise e validação de requisitos funcionais  
-• Investigação e correção de bugs em produção  
-• Análise de APIs e fluxos de integração entre sistemas  
-• Levantamento de dados para apoio a decisões técnicas  
-• Automação de processos internos  
-• Análise de logs e monitoramento de sistemas  
-• Suporte à qualidade de software e testes funcionais  
-• Colaboração com equipes de desenvolvimento e produto  
-• Participação em ambientes ágeis (Scrum / Kanban)
+- Análise e validação de requisitos funcionais e regras de negócio  
+- Investigação, reprodução e apoio na correção de bugs em produção  
+- Análise de APIs REST, integrações e fluxos entre sistemas  
+- Levantamento e organização de dados para suporte a decisões técnicas  
+- Automação de processos internos e suporte à produtividade  
+- Análise de logs, monitoramento e suporte técnico em ambiente produtivo  
+- Testes funcionais, homologação e validações ponta a ponta  
+- Colaboração com times de desenvolvimento e produto  
+- Vivência em metodologias ágeis (**Scrum / Kanban**)  
 
 <br/>
 
 # 📚 Conhecimentos adicionais
 
-• Implantação de ERP e CRM  
-• Gestão de Projetos  
-• Mapeamento e padronização de processos  
-• Automação de processos empresariais  
-• Configuração e homologação de sistemas  
-• Integrações entre plataformas corporativas  
+- Implantação de **ERP / CRM**  
+- Gestão de projetos e apoio a entregas  
+- Mapeamento e padronização de processos e documentações  
+- Configuração e homologação de sistemas corporativos  
+- Integrações entre plataformas e rotinas operacionais  
 
 <br/>
 
-> 💡 **Objetivo:** Evoluir como **engenheiro de software**, desenvolvendo sistemas robustos, escaláveis e bem estruturados que gerem impacto real em negócios e pessoas.
+> 💡 **Objetivo:** Evoluir como **engenheiro de software**, construindo sistemas robustos, escaláveis e bem estruturados que gerem impacto real.
+
+---
+
+# 📊 Atividade no GitHub
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Nathan-Paranhos&show_icons=true&count_private=true&hide_border=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nathan-Paranhos&layout=compact&hide_border=true" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nathan-Paranhos&hide_border=true" />
+
+</div>
