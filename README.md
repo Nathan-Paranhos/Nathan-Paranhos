@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&height=80&lines=Olá!+Eu+sou+Nathan+Paranhos+⚙️;Software+Engineer+%7C+Quality+Engineer;Desenvolvedor+de+Sistemas+%26+APIs;Apaixonado+por+tecnologia+e+desafios"
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&height=80&lines=Olá!+Eu+sou+Nathan+Paranhos+⚙️;Software+Developer+%7C+Quality+Engineer;APIs+%7C+Integrações+%7C+Sistemas+Distribuídos;Foco+em+qualidade,+dados+e+estabilidade+em+produção"
     alt="Typing SVG"
   />
 </div>
@@ -10,16 +10,37 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Engenharia%20de-Software-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Atuação-Software%20Development%20Quality%20Engineer-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Foco-Desenvolvimento%20de%20Sistemas%20%26%20APIs-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Foco-APIs%20%2F%20Integrações%20%2F%20Sistemas%20Distribuídos-blueviolet?style=for-the-badge" />
 </div>
 
 <br/>
 
-Sou estudante de **Engenharia de Software** e atuo profissionalmente como **Software Development Quality Engineer** (com atuação também em desenvolvimento).
+## 👋 Sobre mim
 
-Trabalho com **análise técnica de sistemas, validação de requisitos, investigação de bugs em produção, análise de APIs, logs e automação de processos** — colaborando diretamente com times de **Produto e Desenvolvimento** em ambiente **Scrum/Kanban**.
+Sou **Software Developer** e **Software Quality Engineer**, com foco em **estabilidade**, **análise técnica** e **melhoria contínua** de sistemas.
 
-Além do trabalho, desenvolvo **projetos próprios** com foco em **aplicações web, APIs e soluções digitais escaláveis**, buscando evoluir em **arquitetura de software, engenharia de sistemas e full stack**.
+Atuo na **investigação de incidentes em produção**, **Root Cause Analysis (RCA)** e **validação de integrações** entre **APIs** e serviços, garantindo **confiabilidade** e redução de falhas sistêmicas.
+
+Tenho experiência com **SQL / Firebird** para análise de dados, **monitoramento de fluxos assíncronos com RabbitMQ**, acompanhamento de **deploys** e validação pós-implantação, sempre conectando visão técnica com entendimento de **regras de negócio**.
+
+Participo ativamente de ambientes ágeis (**Scrum** e **Kanban**), colaborando desde o **refinamento de requisitos** até a **entrega e validação em produção**.
+
+Possuo vivência em **implantação de ERP/CRM**, **automação de processos com Power Automate**, gestão de backlog via **Azure DevOps** e padronização de fluxos operacionais.
+
+Meu foco é transformar problemas complexos em soluções estruturadas, garantindo **qualidade**, **previsibilidade** e evolução contínua do produto.
+
+---
+
+### ✅ Destaques técnicos
+
+- Integrações **REST** (token/hash) + validação de contrato e payload  
+- Integrações **GraphQL** (Monday.com)  
+- Monitoramento e análise de fluxos assíncronos com **RabbitMQ**  
+- Investigação de incidentes em produção: **logs + SQL/Firebird + RCA**  
+- Validação e monitoramento de **RPA / automações** (tratamento de exceções e consistência transacional)  
+- Acompanhamento de **deploys** e validação **pós-implantação**  
+- Atuação em **Scrum/Kanban**: refinamentos, validação e melhoria contínua  
+- Gestão de backlog e entregas com **Azure DevOps**  
 
 ---
 
@@ -34,7 +55,6 @@ Além do trabalho, desenvolvo **projetos próprios** com foco em **aplicações 
   </a>
 </div>
 
-<br/>
 <br/>
 
 # 🛠 Tecnologias & Ferramentas
@@ -58,56 +78,83 @@ Além do trabalho, desenvolvo **projetos próprios** com foco em **aplicações 
 <div align="center">
   <img src="https://img.shields.io/badge/Cloud-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
   <img src="https://img.shields.io/badge/Plataformas-Salesforce%20%2F%20Dynamics%20365-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/ERP%20%2F%20CRM-Implantação%20%26%20Processos-2D2D2D?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Automação-RPA%20%2F%20Power%20Automate-2D2D2D?style=for-the-badge" />
   <img src="https://img.shields.io/badge/DevOps-Git%20%2F%20Azure%20DevOps-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Banco%20de%20Dados-Firebird%20%2F%20SQL-lightgrey?style=for-the-badge" />
 </div>
 
 <br/>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Atualmente%20estudando%3A-TypeScript%20%2F%20Next.js%20%2F%20Arquitetura%20de%20Software-blueviolet?style=for-the-badge" />
-</div>
+# 🚀 Projetos em destaque
 
-<br/>
+- **Visionária Vistorias (Landing Page)** — https://visionariavistorias.com.br  
+- **Sobral Crédito Seguro (Landing Page)** — https://sobralcreditoseguro.com.br  
+- **Aithos Tech (Site institucional / Tech Studio)** — https://aithostech.com.br  
 
-# 💼 Experiência Profissional
+---
 
-Atuação em **qualidade de software** e **engenharia de sistemas** em ambiente corporativo, apoiando evolução do produto e estabilidade em produção.
+## 💼 Experiência
 
-Principais atividades:
+### **Fagron Tech — Software Developer**
+**Fev/2026 — o momento**
 
-- Análise e validação de requisitos funcionais e regras de negócio  
-- Investigação, reprodução e apoio na correção de bugs em produção  
-- Análise de APIs REST, integrações e fluxos entre sistemas  
-- Levantamento e organização de dados para suporte a decisões técnicas  
-- Automação de processos internos e suporte à produtividade  
-- Análise de logs, monitoramento e suporte técnico em ambiente produtivo  
-- Testes funcionais, homologação e validações ponta a ponta  
-- Colaboração com times de desenvolvimento e produto  
-- Vivência em metodologias ágeis (**Scrum / Kanban**)  
+- Atuação na área de **Product**, garantindo **qualidade**, **estabilidade** e evolução contínua do sistema  
+- Participação ativa em metodologias ágeis (**Scrum/Kanban**): plannings, refinamentos, dailies e retros  
+- Validação e refinamento de **requisitos funcionais** e **regras de negócio** junto às áreas envolvidas  
+- Investigação técnica de incidentes em produção com **análise de logs** e consultas em **SQL/Firebird**  
+- Execução de **Root Cause Analysis (RCA)** para identificação e mitigação de falhas sistêmicas  
+- Monitoramento e análise de fluxos assíncronos utilizando **RabbitMQ**  
+- Validação de integrações entre **APIs** e serviços internos  
+- Apoio na definição e execução de **testes funcionais** e **regressivos**  
+- Acompanhamento de **deploys** e validação **pós-implantação**  
+- Organização e priorização de demandas via **Kanban** e **Azure DevOps**  
+- Documentação técnica e funcional de análises, correções e melhorias implementadas  
+- Atuação com foco em **melhoria contínua** e redução de incidentes em produção  
 
-<br/>
+---
 
-# 📚 Conhecimentos adicionais
+### **Fagron Tech — Software Support**
+**Abr/2025 — Fev/2026**
 
-- Implantação de **ERP / CRM**  
-- Gestão de projetos e apoio a entregas  
-- Mapeamento e padronização de processos e documentações  
-- Configuração e homologação de sistemas corporativos  
-- Integrações entre plataformas e rotinas operacionais  
+- Liderança em projetos de **implantação de ERP e CRM**  
+- Atuação com banco de dados **Firebird** (consultas, análises e validações)  
+- Organização e acompanhamento de demandas com **Kanban**  
+- Gestão de atividades e fluxos via **Monday.com**  
+- Experiência com **Microsoft Dynamics 365**  
+- Planejamento e acompanhamento de projetos com **Microsoft Project**  
+- Automação de fluxos e processos com **Power Automate**  
+- Gestão documental e colaboração via **SharePoint**  
+- Configuração, parametrização e **homologação** de equipamentos e sistemas  
+- Mapeamento, modelagem e padronização de **processos** e **documentações**  
+- Automação e otimização de processos internos  
+- Gestão de backlog e acompanhamento de entregas utilizando **Azure DevOps**  
 
-<br/>
+---
 
-> 💡 **Objetivo:** Evoluir como **engenheiro de software**, construindo sistemas robustos, escaláveis e bem estruturados que gerem impacto real.
+### **Aithos Tech — Projetos e Desenvolvimento (Freelance/Independente)**
+
+- Desenvolvimento de **sites e landing pages** com foco em performance e apresentação profissional  
+- Criação e evolução do site institucional: **https://aithostech.com.br**  
+- Projetos com foco em **frontend moderno**, responsividade, UI refinada e boas práticas  
 
 ---
 
 # 📊 Atividade no GitHub
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Nathan-Paranhos&show_icons=true&count_private=true&hide_border=true&theme=github_dark" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nathan-Paranhos&layout=compact&hide_border=true&theme=github_dark" />
+  <img
+    height="160"
+    src="https://github-readme-stats.vercel.app/api?username=Nathan-Paranhos&show_icons=true&count_private=true&hide_border=true&theme=github_dark"
+    alt="GitHub Stats"
+  />
+  <img
+    height="160"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nathan-Paranhos&layout=compact&hide_border=true&theme=github_dark"
+    alt="Top Langs"
+  />
   <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nathan-Paranhos&hide_border=true&theme=github-dark" />
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Nathan-Paranhos&hide_border=true&theme=github-dark"
+    alt="Contribution Graph"
+  />
 </div>
