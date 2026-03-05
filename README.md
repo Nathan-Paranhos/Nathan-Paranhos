@@ -3,12 +3,6 @@
     src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&height=80&lines=Olá!+Eu+sou+Nathan+Paranhos+⚙️;Software+Engineer+%7C+Quality+Engineer;Desenvolvedor+de+Sistemas+%26+APIs;Apaixonado+por+tecnologia+e+desafios"
     alt="Typing SVG"
   />
-  <br/>
-  <img
-    width="140"
-    alt="Nathan"
-    src="https://github.com/user-attachments/assets/a06bb38d-87ee-4981-aeca-19fc319b546f"
-  />
 </div>
 
 <br/>
@@ -112,8 +106,8 @@ Principais atividades:
 # 📊 Atividade no GitHub
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Nathan-Paranhos&show_icons=true&count_private=true&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nathan-Paranhos&layout=compact&hide_border=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Nathan-Paranhos&show_icons=true&count_private=true&hide_border=true&theme=github_dark" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nathan-Paranhos&layout=compact&hide_border=true&theme=github_dark" />
   <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nathan-Paranhos&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nathan-Paranhos&hide_border=true&theme=github-dark" />
 </div>
