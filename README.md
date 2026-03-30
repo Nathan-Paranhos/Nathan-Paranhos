@@ -18,7 +18,7 @@
 &nbsp;
 ![](https://img.shields.io/badge/Localização-Jundiaí,_SP-161b22?style=flat-square&logo=googlemaps&logoColor=00d4ff)
 &nbsp;
-![](https://img.shields.io/badge/Foco-Qualidade_%26_Estabilidade-161b22?style=flat-square&logoColor=00d4ff)
+![](https://img.shields.io/badge/Foco-Qualidade_%26_Desenvolvimento-161b22?style=flat-square&logoColor=00d4ff)
 
 </div>
 
