@@ -177,17 +177,15 @@ Perfil **analítico** e **orientado à qualidade**, com vivência em ambientes �
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nathan-Paranhos&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&rank_icon=github&cache_seconds=1800" height="170" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nathan-Paranhos&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&cache_seconds=1800&langs_count=6" height="170" alt="Top Languages"/>
+<img src="https://streak-stats.demolab.com?user=Nathan-Paranhos&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6600&currStreakLabel=00d4ff&sideLabels=c9d1d9&dates=c9d1d9&stroke=0d1117" alt="GitHub Streak" width="500"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Nathan-Paranhos&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6600&currStreakLabel=00d4ff&sideLabels=c9d1d9&dates=c9d1d9" alt="GitHub Streak" width="500"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Nathan-Paranhos&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nathan-Paranhos&hide_border=true&theme=github-dark&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff&area=true&area_color=00d4ff" alt="Contribution Graph" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nathan-Paranhos&hide_border=true&theme=github-dark&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff&area=true" alt="Contribution Graph" width="100%"/>
 
 </div>
 
