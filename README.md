@@ -16,7 +16,7 @@
 
 ![](https://img.shields.io/badge/Disponível_para_Oportunidades-00cc88?style=flat-square)
 &nbsp;
-![](https://img.shields.io/badge/Localização-São_Paulo,_SP-161b22?style=flat-square&logo=googlemaps&logoColor=00d4ff)
+![](https://img.shields.io/badge/Localização-Jundiaí,_SP-161b22?style=flat-square&logo=googlemaps&logoColor=00d4ff)
 &nbsp;
 ![](https://img.shields.io/badge/Foco-Qualidade_%26_Estabilidade-161b22?style=flat-square&logoColor=00d4ff)
 
