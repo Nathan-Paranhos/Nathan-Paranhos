@@ -1,19 +1,10 @@
 <div align="center">
 
-<img src="atom.svg" width="220" alt="Atomic Simulation"/>
+<img src="atom.svg" width="200" alt="Atomic Simulation"/>
 
 <br/>
 
-```
-  ███╗   ██╗ █████╗ ████████╗██╗  ██╗ █████╗ ███╗   ██╗
-  ████╗  ██║██╔══██╗╚══██╔══╝██║  ██║██╔══██╗████╗  ██║
-  ██╔██╗ ██║███████║   ██║   ███████║███████║██╔██╗ ██║
-  ██║╚██╗██║██╔══██║   ██║   ██╔══██║██╔══██║██║╚██╗██║
-  ██║ ╚████║██║  ██║   ██║   ██║  ██║██║  ██║██║ ╚████║
-  ╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
-```
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=3500&pause=1000&color=00D4FF&center=true&vCenter=true&width=860&height=60&lines=Software+Developer+%7C+Quality+Engineer+⚙️;APIs+·+Integrações+·+Sistemas+Distribuídos;Análise+de+Incidentes+·+RCA+·+RabbitMQ;Qualidade%2C+Estabilidade+e+Evolução+Contínua" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3500&pause=1000&color=00D4FF&center=true&vCenter=true&width=860&height=70&lines=Nathan+Paranhos+⚙️;Software+Developer+%7C+Quality+Engineer;APIs+·+Integrações+·+Sistemas+Distribuídos;Análise+de+Incidentes+·+RCA+·+RabbitMQ" alt="Typing SVG" />
 
 <br/>
 
