@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="atom.svg" width="200" alt="Atomic Simulation"/>
+<img src="https://raw.githubusercontent.com/Nathan-Paranhos/Nathan-Paranhos/main/atom.svg" width="200" alt="Atomic Simulation"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3500&pause=1000&color=00D4FF&center=true&vCenter=true&width=860&height=70&lines=Nathan+Paranhos+⚙️;Software+Developer+%7C+Quality+Engineer;APIs+·+Integrações+·+Sistemas+Distribuídos;Análise+de+Incidentes+·+RCA+·+RabbitMQ" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3500&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=false&width=860&height=70&lines=Nathan+Paranhos+%E2%9A%99%EF%B8%8F;Software+Developer+%7C+Quality+Engineer;APIs+%C2%B7+Integracoes+%C2%B7+Sistemas+Distribuidos;Analise+de+Incidentes+%C2%B7+RCA+%C2%B7+RabbitMQ" alt="Typing SVG" />
 
 <br/>
 
@@ -177,12 +177,17 @@ Perfil **analítico** e **orientado à qualidade**, com vivência em ambientes �
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nathan-Paranhos&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9" height="165" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nathan-Paranhos&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9" height="165" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Nathan-Paranhos&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&rank_icon=github&cache_seconds=1800" height="170" alt="GitHub Stats"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nathan-Paranhos&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&cache_seconds=1800&langs_count=6" height="170" alt="Top Languages"/>
 
-<br/>
+<br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nathan-Paranhos&hide_border=true&theme=github-dark&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff" alt="Contribution Graph" width="100%"/>
+<img src="https://streak-stats.demolab.com?user=Nathan-Paranhos&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6600&currStreakLabel=00d4ff&sideLabels=c9d1d9&dates=c9d1d9" alt="GitHub Streak" width="500"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nathan-Paranhos&hide_border=true&theme=github-dark&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff&area=true&area_color=00d4ff" alt="Contribution Graph" width="100%"/>
 
 </div>
 
