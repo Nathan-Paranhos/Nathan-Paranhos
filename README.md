@@ -36,24 +36,24 @@ Na **Fagron Tech**, atuo com serviços internos, APIs, RabbitMQ, SQL/Firebird, A
 
 ---
 
-## Produto em Producao — Lucro Certo
+## Produto em Produção — Lucro Certo
 
 <div align="center">
 
-[![Lucro Certo](https://img.shields.io/badge/Em_Producao-lucrocerto.cloud-22c55e?style=for-the-badge)](https://lucrocerto.cloud)
+[![Lucro Certo](https://img.shields.io/badge/Em_Produ%C3%A7%C3%A3o-lucrocerto.cloud-22c55e?style=for-the-badge)](https://lucrocerto.cloud)
 
 </div>
 
-**[Lucro Certo](https://lucrocerto.cloud)** e um SaaS de **precificação inteligente e gestão financeira** para negócios de alimentacao (restaurantes, food trucks, confeitarias, dark kitchens).
+**[Lucro Certo](https://lucrocerto.cloud)** é um SaaS de **precificação inteligente e gestão financeira** para negócios de alimentação (restaurantes, food trucks, confeitarias, dark kitchens).
 
 | Funcionalidade | Descrição |
 |---|---|
-| **Precificacao Inteligente** | Calcula o preco ideal: ingredientes, embalagens, taxas e perdas |
-| **Gestao Financeira Completa** | Acompanha receitas, despesas e margem em tempo real |
+| **Precificação Inteligente** | Calcula o preço ideal: ingredientes, embalagens, taxas e perdas |
+| **Gestão Financeira Completa** | Acompanha receitas, despesas e margem em tempo real |
 | **Agente IA** | Consultor financeiro que analisa números e sugere ações |
-| **Integracao iFood** | Puxa pedidos automaticamente e deduz taxas para exibir o lucro real |
-| **Relatorios e DRE** | Exportacao PDF, simulador de cenários e relatórios avançados |
-| **LGPD Compliant** | Dados protegidos com exportação e exclusao de conta |
+| **Integração iFood** | Puxa pedidos automaticamente e deduz taxas para exibir o lucro real |
+| **Relatórios e DRE** | Exportação PDF, simulador de cenários e relatórios avançados |
+| **LGPD Compliant** | Dados protegidos com exportação e exclusão de conta |
 
 Stack: **Next.js · React 19 · Node.js · PostgreSQL · Supabase · Stripe · Groq AI · iFood API**
 
@@ -172,29 +172,29 @@ flowchart TB
 | # | Projeto | Papel | Stack |
 |---|---|---|---|
 | **01** | **[PME OS](https://pmeos-tech.netlify.app)** — SaaS multitenant com RLS, IA generativa por tenant e pagamentos | Arquitetura, dev full-stack, integrações, testes E2E | Next.js 14 · TypeScript · Supabase · Groq AI · Asaas · Playwright |
-| **02** | **[Lucro Certo](https://lucrocerto.cloud)** — Precificacao inteligente para MEIs do setor alimenticio | Dev full-stack, SaaS, IA conversacional, freemium, pagamentos | Next.js · TypeScript · Supabase · Groq AI · Stripe |
+| **02** | **[Lucro Certo](https://lucrocerto.cloud)** — Precificação inteligente para MEIs do setor alimentício | Dev full-stack, SaaS, IA conversacional, freemium, pagamentos | Next.js · TypeScript · Supabase · Groq AI · Stripe |
 | **03** | **[Aithos LabCode](https://github.com/Nathan-Paranhos)** — Bancada desktop para engenharia de software | Arquitetura, interface, módulos, publicação open source | Electron · Node.js · TypeScript |
 
 ---
 
 ## Experiência
 
-### Engenheiro de Software (Estagio) · Fagron Tech
-**fev. 2026 - atual** · Sao Paulo, SP · Engenharia de Software
+### Engenheiro de Software (Estágio) · Fagron Tech
+**fev. 2026 - atual** · São Paulo, SP · Engenharia de Software
 
-- Validacao e refinamento de requisitos funcionais, regras de negócio e criterios de aceite
-- Investigacao de incidentes em produção com análise de logs, SQL/Firebird e RCA
-- Validacao de integrações entre APIs, payloads, contratos e filas com RabbitMQ
-- Testes funcionais/regressivos e validação pos-implantação em ambiente produtivo
-- Gestao de demandas com Azure DevOps, Kanban, plannings e retrospectivas
-- Analise de código legado em Delphi para correcoes, estabilizacao e documentação
+- Validação e refinamento de requisitos funcionais, regras de negócio e critérios de aceite
+- Investigação de incidentes em produção com análise de logs, SQL/Firebird e RCA
+- Validação de integrações entre APIs, payloads, contratos e filas com RabbitMQ
+- Testes funcionais/regressivos e validação pós-implantação em ambiente produtivo
+- Gestão de demandas com Azure DevOps, Kanban, plannings e retrospectivas
+- Análise de código legado em Delphi para correções, estabilização e documentação
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![Delphi](https://img.shields.io/badge/Delphi-EE1F35?style=flat-square) ![SQL/Firebird](https://img.shields.io/badge/SQL%2FFirebird-CC2927?style=flat-square) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white) ![Scrum](https://img.shields.io/badge/Scrum%2FKanban-0052CC?style=flat-square)
 
 ---
 
 ### Fundador & Engenheiro de Software · Aithos Tech
-**2025 - atual** · Jundiai, SP · [aithostech.com.br](https://aithostech.com.br)
+**2025 - atual** · Jundiaí, SP · [aithostech.com.br](https://aithostech.com.br)
 
 - Ciclo completo de produtos digitais: requisitos, arquitetura, dev full-stack, integrações e deploy
 - Desenvolvimento do PME OS (SaaS multitenant com RLS, IA e pagamentos)
@@ -206,24 +206,24 @@ flowchart TB
 
 ---
 
-### Software Support (Estagio) · Fagron Tech
-**abr. 2025 - fev. 2026** · Sao Paulo, SP
+### Software Support (Estágio) · Fagron Tech
+**abr. 2025 - fev. 2026** · São Paulo, SP
 
 - Liderança em projetos de implantação de ERP/CRM e homologação de sistemas
 - Consultas e validações em banco Firebird/SQL para sustentação e decisão técnica
-- Automacao de processos internos com Power Automate e SharePoint
-- Gestao de backlog com Monday, Azure DevOps e Microsoft Project
-- Experiencia com Microsoft Dynamics 365 e mapeamento de processos
+- Automação de processos internos com Power Automate e SharePoint
+- Gestão de backlog com Monday, Azure DevOps e Microsoft Project
+- Experiência com Microsoft Dynamics 365 e mapeamento de processos
 
 ![Firebird](https://img.shields.io/badge/Firebird-CC2927?style=flat-square) ![Dynamics 365](https://img.shields.io/badge/Dynamics_365-0078D4?style=flat-square&logo=microsoft&logoColor=white) ![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square&logo=powerautomate&logoColor=white) ![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=flat-square&logo=microsoftsharepoint&logoColor=white)
 
 ---
 
 ### Assistente ADM / TI · Abrylar Imoveis
-**ago. 2023 - jan. 2025** · Jundiai, SP
+**ago. 2023 - jan. 2025** · Jundiaí, SP
 
-- Automacao de tarefas repetitivas, relatórios e organização de dados
-- Suporte em sistemas de gestão imobiliaria e atendimento a usuarios
+- Automação de tarefas repetitivas, relatórios e organização de dados
+- Suporte em sistemas de gestão imobiliária e atendimento a usuários
 - Desenvolvimento de landing pages responsivas e dashboards de indicadores
 
 ![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white) ![Dashboards](https://img.shields.io/badge/Dashboards-0d1117?style=flat-square) ![Automacao](https://img.shields.io/badge/Automacao-0d1117?style=flat-square)
@@ -235,13 +235,13 @@ flowchart TB
 | # | Projeto | Descrição | Stack |
 |---|---|---|---|
 | 01 | **[KV Cache QJL](https://github.com/Nathan-Paranhos)** | Simulação de compressão de KV Cache com rotação Johnson-Lindenstrauss e quantização polar | C# · .NET 8 · WinForms |
-| 02 | **[Loja Fake API](https://github.com/Nathan-Paranhos)** | Catalogo com Fake Store API, custom hooks, service layer, filtros e carrinho | React 18 · TypeScript · Vite · Puppeteer |
+| 02 | **[Loja Fake API](https://github.com/Nathan-Paranhos)** | Catálogo com Fake Store API, custom hooks, service layer, filtros e carrinho | React 18 · TypeScript · Vite · Puppeteer |
 | 03 | **[GroqNote v1](https://github.com/Nathan-Paranhos)** | Editor Markdown e testador REST com análise por IA, persistência local e MVVM | C# · .NET 8 · Avalonia UI · Groq API |
-| 04 | **LaudoBot** | Geracao de laudos em PDF via WhatsApp com validação e organização automatica | Node.js · Evolution API · Firebase · PDFKit |
+| 04 | **LaudoBot** | Geração de laudos em PDF via WhatsApp com validação e organização automática | Node.js · Evolution API · Firebase · PDFKit |
 | 05 | **[Visionaria Vistorias](https://visionariavistorias.com.br)** | Landing page responsiva para geração de leads | Next.js · Tailwind CSS |
 | 06 | **[Aithos Tech](https://aithostech.com.br)** | Site institucional com animações CSS nativas e identidade visual | Next.js · TypeScript · Tailwind |
 | 07 | **[Darlan Goncalves](https://darlan-goncalves.com.br)** | Site pessoal para analista de sistemas com identidade personalizada | Next.js · TypeScript · Tailwind CSS |
-| 08 | **[Sobral Credito Seguro](https://sobralcreditoseguro.com.br)** | Site institucional para empresa de credito | Next.js · Tailwind CSS |
+| 08 | **[Sobral Crédito Seguro](https://sobralcreditoseguro.com.br)** | Site institucional para empresa de crédito | Next.js · Tailwind CSS |
 | 09 | **TCC Arduino** | Monitoramento de ambiente com Arduino e sensores (projeto acadêmico) | Arduino · C++ · IoT |
 
 ---
@@ -331,9 +331,9 @@ flowchart TB
 
 ## Formação
 
-| Periodo | Curso | Instituicao |
+| Período | Curso | Instituição |
 |---|---|---|
-| 2025 - 2028 | Bacharelado em Engenharia de Software | Universidade Estacio |
+| 2025 - 2028 | Bacharelado em Engenharia de Software | Universidade Estácio |
 | 2021 - 2022 | Técnico em Tecnologia da Informação | FAACG |
 
 Inglês: leitura técnica de documentações, APIs e releases; escrita básica para comunicação.
@@ -358,8 +358,8 @@ Atuo em oportunidades que envolvem front-end, back-end, APIs, banco de dados, au
 
 <div align="center">
 
-*"Qualidade nao e um ato, e um habito."*
+*"Qualidade não é um ato, é um hábito."*
 
-**2026 Nathan Paranhos · Jundiai, SP · [Aithos Tech](https://aithostech.com.br)**
+**2026 Nathan Paranhos · Jundiaí, SP · [Aithos Tech](https://aithostech.com.br)**
 
 </div>
