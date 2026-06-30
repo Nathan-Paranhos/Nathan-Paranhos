@@ -37,9 +37,9 @@ My focus is on **system stability**, **Root Cause Analysis (RCA)** and **API int
     - - Async flow monitoring with **RabbitMQ**
       - - Product in production: **[lucrocerto.cloud](https://lucrocerto.cloud)** — SaaS for pricing and financial management for food businesses
        
-        - ---
+---
 
-        ## Produto em Producao — Lucro Certo
+        ## Produto em Producao - Lucro Certo
 
         <div align="center">
 
