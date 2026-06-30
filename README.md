@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Nathan-Paranhos/Nathan-Paranhos/main/atom.svg" width="160" alt="Nathan Paranhos"/>
 
-<br/>h
+<br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3500&pause=1200&color=00D4FF&center=true&vCenter=true&width=800&height=55&lines=Nathan+Paranhos;Engenheiro+de+Software+%C2%B7+Full-Stack;APIs+%7C+SaaS+%7C+Integra%C3%A7%C3%B5es+%7C+Testes;Sistemas+est%C3%A1veis+em+produ%C3%A7%C3%A3o" alt="Typing SVG"/>
 
