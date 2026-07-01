@@ -17,9 +17,7 @@
 <br/>
 
 ![Status](https://img.shields.io/badge/Status-Aberto_a_Oportunidades-22c55e?style=flat-square)
- 
 ![Local](https://img.shields.io/badge/Local-Jundiai_SP-0d1117?style=flat-square)
- 
 ![Foco](https://img.shields.io/badge/Foco-Full--Stack_%26_Integracoes-0d1117?style=flat-square)
 
 </div>
@@ -55,114 +53,114 @@ Na **Fagron Tech**, atuo com serviços internos, APIs, RabbitMQ, SQL/Firebird, A
 | **Relatórios e DRE** | Exportação PDF, simulador de cenários e relatórios avançados |
 | **LGPD Compliant** | Dados protegidos com exportação e exclusão de conta |
 
-Stack: **Next.js · React 19 · Node.js · PostgreSQL · Supabase · Stripe · Groq AI · iFood API**
+Stack: **Next.js · React 19 · Node.js · Python · PostgreSQL · MongoDB · Supabase · Stripe · Groq AI · iFood API**
 
 ### Arquitetura
 
 ```mermaid
 flowchart TB
-    subgraph CLIENTE["Cliente - Browser / PWA"]
-        UI["Next.js App Router - React 19 - Tailwind - PWA"]
-    end
-    subgraph EDGE["Edge Middleware"]
-        E1{"Rota sensivel?"} -->|sim| E1R["404 imediato"]
-        E1 -->|nao| E2{"Sessao valida?"}
-        E2 -->|nao| EFAST["Fast-path sem auth"]
-        E2 -->|sim| E3["Valida usuario"] --> E4{"Autenticado?"}
-        E4 -->|nao| E4R["redirect /login"]
-        E4 -->|sim| E5{"Exige assinatura?"}
-        E5 -->|sim| E6{"Assinatura ativa?"} -->|nao pag.| E6P["redirect /planos"]
-        E6 -->|nao API| E6A["402 SUBSCRIPTION_REQUIRED"]
-        E6 -->|sim| EHDRS
-        E5 -->|nao| EHDRS
-        EFAST --> EHDRS["Headers: CSP - HSTS - X-Frame-Options"]
-    end
-    subgraph AUTH["Autenticacao"]
-        AC["Cadastro: anti-enumeracao - captcha - LGPD"]
-        AL["Login: valida credenciais - sincroniza plano"]
-    end
-    subgraph TRIAL["Trial"]
-        TR1{"Assinatura existe?"} -->|nao| TR2["Cria: basico - 7 dias - 1 por conta"]
-        TR1 -->|sim| TR3["Mantem estado atual"]
-        TR2 --> TR4{"Trial expirado?"} -->|nao| TR6["Acessa o app"]
-        TR4 -->|sim| TR5["Paywall - redirect /planos"]
-    end
-    subgraph BILLING["Billing - Stripe"]
-        BCO["Checkout: cria sessao - referencia ao usuario"]
-        BWH["Webhook: valida assinatura - idempotente"] --> BEV{"Evento"}
-        BEV -->|assinatura criada/atualizada| BACT["Atualiza plano - ativa assinatura"]
-        BEV -->|pagamento falhou| BGRC["Periodo de carencia"]
-        BEV -->|assinatura cancelada| BCAN["Plano cancelado - volta ao basico"]
-    end
-    subgraph CHAT["IA Chat - Basico e Pro"]
-        CH1["Sanitiza entrada - verifica limite"] --> CH2["LLM stream SSE"] --> CH3{"Produto detectado?"}
-        CH3 -->|sim| CH4["Valida schema - calcula - salva produto"] --> CH5["Salva historico"]
-        CH3 -->|nao| CH5
-    end
-    subgraph AGENTE["IA Agente - Pro"]
-        AGR{"Plano?"} -->|Basico| AGBL["403 - Upgrade necessario"]
-        AGR -->|Pro| AGL["Executa loop com contexto"] --> AGT{"LLM precisa tool?"}
-        AGT -->|leitura| AGTL["Executa tool"] --> AGL
-        AGT -->|acao| AGTA["Propoe acao - aguarda confirmacao"]
-        AGT -->|final| AGTS["Stream SSE - salva historico"]
-    end
-    subgraph LLM["Cliente LLM - Resiliencia"]
-        GC1{"Slot disponivel?"} -->|nao| GCQ["Fila FIFO - backpressure"] -.->|liberado| GC1
-        GC1 -->|sim| GCR["Round-robin entre chaves"] --> GCS["Chama API - timeout 120s"] --> GCO{"Resultado"}
-        GCO -->|ok| GCOK["Retorna stream"] --> GCREL["Libera slot"]
-        GCO -->|rate limit| GCC["Cooldown na chave"] --> GCN{"Outra chave?"}
-        GCO -->|erro| GCN
-        GCN -->|sim| GCR
-        GCN -->|nao| GCFAIL["Degrada graciosamente"] --> GCREL
-    end
-    subgraph IFOOD["iFood - Conexao e Sync"]
-        ICS["Device flow OAuth"] --> ICF["Troca tokens - salva criptografado"] --> ICM["Vincula estabelecimento"]
-        IS1["Polling de eventos"] -->|expirado| ISR["Renova token"] --> IS1
-        IS1 -->|eventos| IS2["Processa pedidos"] --> IS4["Busca detalhes - retry 404"]
-        IS4 --> IS5{"Cancelamento?"} -->|sim| IS6["CANCELLED - excluido da receita"]
-        IS5 -->|nao| IS7["Salva status"]
-        IS6 --> IS8["Salva pedido - metricas"] --> IS9["Confirma para o iFood"]
-        IS7 --> IS8
-    end
-    subgraph NEGOCIO["CRUD - Produtos Vendas Custos"]
-        NL{"Limite do plano?"} -->|excedido| NLE["403 PLAN_LIMIT_REACHED"]
-        NL -->|ok| NW["Escreve no banco - isolado por usuario"] --> NA["Auditoria - nao bloqueia"]
-    end
-    subgraph CALC["Motor de Calculos"]
-        CLP["Precificacao: custo - preco sugerido - break-even - markup"]
-        CLD["DRE: Receita - Custos - Fixos = Lucro - alertas"]
-    end
-    subgraph SEC["Seguranca - Defesa em Camadas"]
-        S1["Camada 1 - Borda: CSP - HSTS - paywall"] --> S2["Camada 2 - Rota: rate limit - Zod - sem IDOR"] --> S3["Camada 3 - Banco: RLS por usuario"]
-    end
-    subgraph SB["Supabase - Postgres + RLS"]
-        DB[("usuarios - assinaturas - produtos - vendas - pedidos iFood - historico chat - audit logs")]
-    end
-    subgraph EXT["Servicos Externos"]
-        STRIPE_E["Stripe - Webhooks assinados"]
-        GROQ_E["Groq API - LLMs open-weight"]
-        IFOOD_E["iFood API - OAuth + polling"]
-        TURN_E["Cloudflare Turnstile - Captcha"]
-    end
-    CLIENTE -->|HTTPS| EDGE
-    EDGE --> AUTH & TRIAL & BILLING & CHAT & AGENTE & IFOOD & NEGOCIO
-    CHAT --> LLM
-    AGENTE --> LLM
-    LLM -->|stream| GROQ_E
-    NEGOCIO --> CALC
-    AUTH --> SB
-    TRIAL --> SB
-    BILLING --> SB
-    CHAT --> SB
-    AGENTE --> SB
-    IFOOD --> SB
-    NEGOCIO --> SB
-    AC --> TURN_E
-    BCO --> STRIPE_E -.->|webhook| BWH
-    IFOOD --> IFOOD_E
-    SEC -.-> EDGE
-    SEC -.-> NEGOCIO
-    SEC -.-> SB
+subgraph CLIENTE["Cliente - Browser / PWA"]
+UI["Next.js App Router - React 19 - Tailwind - PWA"]
+end
+subgraph EDGE["Edge Middleware"]
+E1{"Rota sensivel?"} -->|sim| E1R["404 imediato"]
+E1 -->|nao| E2{"Sessao valida?"}
+E2 -->|nao| EFAST["Fast-path sem auth"]
+E2 -->|sim| E3["Valida usuario"] --> E4{"Autenticado?"}
+E4 -->|nao| E4R["redirect /login"]
+E4 -->|sim| E5{"Exige assinatura?"}
+E5 -->|sim| E6{"Assinatura ativa?"} -->|nao pag.| E6P["redirect /planos"]
+E6 -->|nao API| E6A["402 SUBSCRIPTION_REQUIRED"]
+E6 -->|sim| EHDRS
+E5 -->|nao| EHDRS
+EFAST --> EHDRS["Headers: CSP - HSTS - X-Frame-Options"]
+end
+subgraph AUTH["Autenticacao"]
+AC["Cadastro: anti-enumeracao - captcha - LGPD"]
+AL["Login: valida credenciais - sincroniza plano"]
+end
+subgraph TRIAL["Trial"]
+TR1{"Assinatura existe?"} -->|nao| TR2["Cria: basico - 7 dias - 1 por conta"]
+TR1 -->|sim| TR3["Mantem estado atual"]
+TR2 --> TR4{"Trial expirado?"} -->|nao| TR6["Acessa o app"]
+TR4 -->|sim| TR5["Paywall - redirect /planos"]
+end
+subgraph BILLING["Billing - Stripe"]
+BCO["Checkout: cria sessao - referencia ao usuario"]
+BWH["Webhook: valida assinatura - idempotente"] --> BEV{"Evento"}
+BEV -->|assinatura criada/atualizada| BACT["Atualiza plano - ativa assinatura"]
+BEV -->|pagamento falhou| BGRC["Periodo de carencia"]
+BEV -->|assinatura cancelada| BCAN["Plano cancelado - volta ao basico"]
+end
+subgraph CHAT["IA Chat - Basico e Pro"]
+CH1["Sanitiza entrada - verifica limite"] --> CH2["LLM stream SSE"] --> CH3{"Produto detectado?"}
+CH3 -->|sim| CH4["Valida schema - calcula - salva produto"] --> CH5["Salva historico"]
+CH3 -->|nao| CH5
+end
+subgraph AGENTE["IA Agente - Pro"]
+AGR{"Plano?"} -->|Basico| AGBL["403 - Upgrade necessario"]
+AGR -->|Pro| AGL["Executa loop com contexto"] --> AGT{"LLM precisa tool?"}
+AGT -->|leitura| AGTL["Executa tool"] --> AGL
+AGT -->|acao| AGTA["Propoe acao - aguarda confirmacao"]
+AGT -->|final| AGTS["Stream SSE - salva historico"]
+end
+subgraph LLM["Cliente LLM - Resiliencia"]
+GC1{"Slot disponivel?"} -->|nao| GCQ["Fila FIFO - backpressure"] -.->|liberado| GC1
+GC1 -->|sim| GCR["Round-robin entre chaves"] --> GCS["Chama API - timeout 120s"] --> GCO{"Resultado"}
+GCO -->|ok| GCOK["Retorna stream"] --> GCREL["Libera slot"]
+GCO -->|rate limit| GCC["Cooldown na chave"] --> GCN{"Outra chave?"}
+GCO -->|erro| GCN
+GCN -->|sim| GCR
+GCN -->|nao| GCFAIL["Degrada graciosamente"] --> GCREL
+end
+subgraph IFOOD["iFood - Conexao e Sync"]
+ICS["Device flow OAuth"] --> ICF["Troca tokens - salva criptografado"] --> ICM["Vincula estabelecimento"]
+IS1["Polling de eventos"] -->|expirado| ISR["Renova token"] --> IS1
+IS1 -->|eventos| IS2["Processa pedidos"] --> IS4["Busca detalhes - retry 404"]
+IS4 --> IS5{"Cancelamento?"} -->|sim| IS6["CANCELLED - excluido da receita"]
+IS5 -->|nao| IS7["Salva status"]
+IS6 --> IS8["Salva pedido - metricas"] --> IS9["Confirma para o iFood"]
+IS7 --> IS8
+end
+subgraph NEGOCIO["CRUD - Produtos Vendas Custos"]
+NL{"Limite do plano?"} -->|excedido| NLE["403 PLAN_LIMIT_REACHED"]
+NL -->|ok| NW["Escreve no banco - isolado por usuario"] --> NA["Auditoria - nao bloqueia"]
+end
+subgraph CALC["Motor de Calculos"]
+CLP["Precificacao: custo - preco sugerido - break-even - markup"]
+CLD["DRE: Receita - Custos - Fixos = Lucro - alertas"]
+end
+subgraph SEC["Seguranca - Defesa em Camadas"]
+S1["Camada 1 - Borda: CSP - HSTS - paywall"] --> S2["Camada 2 - Rota: rate limit - Zod - sem IDOR"] --> S3["Camada 3 - Banco: RLS por usuario"]
+end
+subgraph SB["Supabase - Postgres + RLS"]
+DB[("usuarios - assinaturas - produtos - vendas - pedidos iFood - historico chat - audit logs")]
+end
+subgraph EXT["Servicos Externos"]
+STRIPE_E["Stripe - Webhooks assinados"]
+GROQ_E["Groq API - LLMs open-weight"]
+IFOOD_E["iFood API - OAuth + polling"]
+TURN_E["Cloudflare Turnstile - Captcha"]
+end
+CLIENTE -->|HTTPS| EDGE
+EDGE --> AUTH & TRIAL & BILLING & CHAT & AGENTE & IFOOD & NEGOCIO
+CHAT --> LLM
+AGENTE --> LLM
+LLM -->|stream| GROQ_E
+NEGOCIO --> CALC
+AUTH --> SB
+TRIAL --> SB
+BILLING --> SB
+CHAT --> SB
+AGENTE --> SB
+IFOOD --> SB
+NEGOCIO --> SB
+AC --> TURN_E
+BCO --> STRIPE_E -.->|webhook| BWH
+IFOOD --> IFOOD_E
+SEC -.-> EDGE
+SEC -.-> NEGOCIO
+SEC -.-> SB
 ```
 
 ---
@@ -202,7 +200,7 @@ flowchart TB
 - Entrega de projetos para clientes: SaaS, landing pages, dashboards e sites
 - Testes E2E com Playwright e documentação técnica
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
 
 ---
 
@@ -263,6 +261,7 @@ flowchart TB
 **Back-end e Integrações**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C#/.NET 8](https://img.shields.io/badge/C%23_.NET_8-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
@@ -277,13 +276,17 @@ flowchart TB
 ![RCA](https://img.shields.io/badge/RCA-0d1117?style=for-the-badge)
 ![Testes Funcionais](https://img.shields.io/badge/Testes_Funcionais-0d1117?style=for-the-badge)
 
-**Dados**
+**Banco de Dados Relacionais**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![SQL/Firebird](https://img.shields.io/badge/SQL%2FFirebird-CC2927?style=for-the-badge)
 ![Row-Level Security](https://img.shields.io/badge/Row--Level_Security-0d1117?style=for-the-badge)
+
+**BaaS e Banco NoSQL**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 **DevOps e Plataformas**
 
@@ -298,7 +301,6 @@ flowchart TB
 ![Groq API](https://img.shields.io/badge/Groq_API-F55036?style=for-the-badge)
 ![Llama 3.3 70B](https://img.shields.io/badge/Llama_3.3_70B-0d1117?style=for-the-badge)
 ![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 **Desktop**
 
