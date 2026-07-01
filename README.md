@@ -16,7 +16,6 @@
 
 <br/>
 
-![Status](https://img.shields.io/badge/Status-Aberto_a_Oportunidades-22c55e?style=flat-square)
 ![Local](https://img.shields.io/badge/Local-Jundiai_SP-0d1117?style=flat-square)
 ![Foco](https://img.shields.io/badge/Foco-Full--Stack_%26_Integracoes-0d1117?style=flat-square)
 
